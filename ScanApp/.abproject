@@ -1,0 +1,45 @@
+{
+  "ProjectName": "ScanApp",
+  "ProjectGuid": "30637496-d1d9-483d-aaf6-b6bad73c26b3",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.ScanApp",
+  "DisplayName": "ScanApp",
+  "Author": "",
+  "Description": "ScanApp",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "4.0.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "true",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{58eaca20-f3c0-4968-b891-7edbfe3929b5}",
+  "WP8ProductID": "{956e40fa-6d56-4c99-bb8b-32ed22619975}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.ScanApp",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}
