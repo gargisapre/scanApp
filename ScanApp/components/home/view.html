@@ -1,7 +1,59 @@
-<div data-role="view" data-title="Home View" data-layout="main" data-model="app.home" data-show="app.home.onShow" data-after-show="app.home.afterShow">
-
-    <!-- START_CUSTOM_CODE_home -->
-    <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
-
-    <!-- END_CUSTOM_CODE_home -->
+<!-- START_CUSTOM_CODE_homeModel -->
+<!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+<div data-role="view" data-layout="main-nonav" data-model="app.home" data-show="app.home.onShow" data-after-show="app.home.afterShow">
+    <div class="signin-view">
+        <div id="rectangle1" style="height:120px">
+            <h1 style="color:white;margin:20px">
+            Welcome to the Scanner App
+        </h1>
+        </div>
+       
+        <form>
+            <div class="row">
+                <div class="col-md-1">
+                    <label>
+                            <input type="username" placeholder="Username" data-bind="value: homeModel.userName" required autofocus>
+                        </label>
+                </div>
+                <div class="col-md-1">
+                    <label>
+                            <input type="email" placeholder="Email" data-bind="value: homeModel.email" required autofocus>
+                        </label>
+                </div>
+                <div class="col-md-1">
+                    <label>
+                            <input type="password" placeholder="Password" data-bind="value: homeModel.password" required>
+                        </label>
+                </div>
+                <div class="col-md-1" style="color:white">
+                    <label>Remember Me
+                            <input type="checkbox" data-bind="checked: homeModel.rememberme">
+                        </label>
+                </div>
+                <div id="error" class="col-md-1">
+                    <label style="color:red">
+						Your username, email, and/or password is incorrect                    	        
+                    </label>
+                </div>
+                <div id="signin" class="button-group button-group-vertical">
+                    <a data-role="button" style="background-color:#00BFA5;color:white" data-bind="events: { click: homeModel.signin }">Sign In</a>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="offline" align="center" style="display:none;">
+        You are currently offline. Before using this app in offline mode you must initialize it while you are online
+    </div>
+    <script>
+        $(document).ready(function () {
+            $("#error").hide();
+            $("#signin").click(function () {
+                $("#error").show();
+            })
+        })
+    </script>
 </div>
+<!-- END_CUSTOM_CODE_homeModel -->
+<!-- START_CUSTOM_CODE_signIn -->
+<!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+<!-- END_CUSTOM_CODE_signIn -->
