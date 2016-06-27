@@ -325,8 +325,133 @@
 
 /* START_CUSTOM_CODE_kendoUiMobileApp */
 
+#login {
+    text-align: center;
+    margin-top: 100px;
+    color: #00BFA5;
+}
+
+@keyframes example {
+    0% {
+        background-color: cyan;
+        left: 0px;
+        top: 0px;
+    }
+    100% {
+        background-color: #a4c73c;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+button {
+    display: table;
+    box-shadow: 3px 3px grey;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+#scanB {
+    display: table;
+    box-shadow: 3px 3px grey;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+#homeimage {
+    display: table;
+    bottom: 0px;
+    left: 50%;
+    margin: 0 auto;
+    margin-top: 90px;
+    padding: 0;
+    width: auto;
+}
+
 
 /* Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes */
 
+#conf {
+    display: table;
+    /*     margin: 10px 150px !important; */
+    box-shadow: 3px 3px grey;
+    border-radius: 8px;
+    background: -webkit-linear-gradient(left top, #009688, #00BFA5);
+}
+
+#rectangle1 {
+    width: 100x;
+    height: 90px;
+    background: -webkit-linear-gradient(left top, #00BFA5, #00796B);
+    text-align: center;
+    font-size: 1.75em;
+    font-style: bold;
+    font-family: ‘Lucida Console’, Monaco;
+    margin: 20px !important;
+    padding: 0px !important;
+    box-shadow: 3px 3px grey;
+    border-radius: 8px;
+}
+
+#instructions {
+    font-family: ‘Lucida Console’, Monaco;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#inst {
+    font-size: 13px;
+    text-align: left;
+    float: left;
+    animation-timing-function: ease-in;
+}
+
+#scan {
+    display: table;
+    margin: 0 auto;
+    background-color: -webkit-linear-gradient(left top, #009688, #00BFA5);
+}
+
+#white {
+    margin-bottom: 0 auto;
+    margin-left: 29%;
+    display: table;
+}
+
+#next {
+    margin-top: 85%;
+    margin-left: 75%;
+}
+
+div {
+    background-image: url("http://www.momentumdrums.com/wp-content/uploads/2013/03/textures-backgrounds-cool-599733.jpg");
+    text-align: center;
+}
+
+#p4 {
+    margin: 0 auto;
+}
+
+#go {
+    margin-top: 10px;
+    background: -webkit-linear-gradient(left top, #00BFA5, #00796B);
+    text-align: center;
+    color: white;
+    font-size: 1.75em;
+    font-style: bold;
+    font-family: ‘Lucida Console’, Monaco;
+    padding: 0px !important;
+    box-shadow: 3px 3px grey;
+    border-radius: 8px;
+}
+
+
+}
+
+/* Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes */
 
 /* END_CUSTOM_CODE_kendoUiMobileApp */
