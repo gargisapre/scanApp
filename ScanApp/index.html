@@ -13,9 +13,12 @@
     <script src="kendo/js/jquery.min.js"></script>
     <script src="kendo/js/kendo.mobile.min.js"></script>
     <script src="app.js"></script>
+    <script src="bower_components/everlive/min/everlive.all.min.js"></script>
+    <script src="dataProviders/scanApp.js"></script>
 </head>
 
 <body id="kendoUiMobileApp">
+    <script src="components/scanPage/index.js"></script>
     <script src="components/home/index.js"></script>
     <div data-role="layout" data-id="main">
         <header data-role="header">
@@ -25,7 +28,7 @@
         </header>
         <footer data-role="footer">
             <div data-role="tabstrip" id="navigation-container">
-                <a href="components/home/view.html" data-icon="home">Home View</a>
+                <a href="components/home/view.html?logout=true" data-position="end" data-icon="action">Sign Out</a>
             </div>
             <div id="navigation-container-more" style="display: none">
             </div>
@@ -62,7 +65,7 @@
     </div>
     <!-- START_CUSTOM_CODE_kendoUiMobileApp -->
     <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
-
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <!-- END_CUSTOM_CODE_kendoUiMobileApp -->
 </body>
 
